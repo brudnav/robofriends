@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Card from "./Card";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello heading="Hello React 3.0" />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
